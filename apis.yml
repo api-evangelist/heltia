@@ -1,8 +1,13 @@
 aid: heltia
 name: Heltia
-description: 'Heltia is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Heltia is a Turkish digital mental-health and employee-wellbeing platform
+  (an Employee Assistance Platform, EAP) that connects individuals and corporate employees
+  with licensed psychologists and dietitians for online therapy, counseling and nutrition
+  support. Its consumer app offers video sessions with experts, self-assessment tests
+  (anxiety, depression, OCD, motivation) and an expert-reviewed blog, while its corporate
+  products — Esenlik (wellbeing), Sağlık Yönetimi (health management) and brokerage —
+  give employers measurable workforce mental-health programs. Backed by Northzone.
+  Heltia does not currently publish a public developer API, SDK or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/heltia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://media.getheltia.com/web/heltia-logo.webp
 tags:
 - Company
 - Healthcare
+- Mental Health
+- Telehealth
+- Employee Wellbeing
+- EAP
+- Digital Health
+- Therapy
+- Nutrition
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.getheltia.com
+- type: About
+  url: https://www.getheltia.com/hakkimizda
+- type: Blog
+  url: https://www.getheltia.com/blog
+- type: Support
+  url: https://www.getheltia.com/iletisim
+- type: PrivacyPolicy
+  url: https://www.getheltia.com/belge/kisisel-veri-aydinlatma-metni
+- type: TermsOfService
+  url: https://www.getheltia.com/belge/kullanim-kosullari
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getheltia/
+- type: Instagram
+  url: https://www.instagram.com/getheltia/
+- type: YouTube
+  url: https://www.youtube.com/@getheltia
+- type: DomainSecurity
+  url: security/heltia-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
